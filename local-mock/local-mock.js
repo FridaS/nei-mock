@@ -12,7 +12,7 @@ let key = process.env.NEI_KEY
 let defaultKey = null
 let keyNameArr = []
 if (!key) {
-  defaultKey = require('../../neiMockConfig').key
+  defaultKey = require(path.resolve(process.cwd(), 'neiMockConfig')).key
   if (typeof defaultKey === 'string') {
     key = defaultKey
   } else {
@@ -49,7 +49,8 @@ if (keyNameArr.includes(argv.k) && argv.k) {
 }
 
 const neiBaseDir = path.resolve(os.homedir(), 'localMock', key)
-const copyTar = path.join(__dirname, './../../mock/data')
+const { localMockData } = require(path.resolve(process.cwd(), 'neiMockConfig'))
+const copyTar = path.resolve(process.cwd(), localMockData + '/data')
 const routeMapPath = path.join(__dirname, './routeMap.json')
 
 // 判断文件/文件夹是否已存在

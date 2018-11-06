@@ -29,8 +29,6 @@ var readMockData = function (filePath) {
 
 const { localMockData } = require(path.resolve(process.cwd(), 'neiMockConfig'))
 var mockDir = path.resolve(process.cwd(), localMockData)
-// console.log('mockDir', mockDir)
-// var mockDir = path.resolve(__dirname, '../mock')
 
 var getFilePath = require('./mockRouterMap').getFilePath
 
