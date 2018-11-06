@@ -1,0 +1,19 @@
+{
+  "name": "nei-mock",
+  "version": "1.0.0",
+  "description": "NEI based data mock scheme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FridaS/nei-mock.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FridaS/nei-mock/issues"
+  },
+  "homepage": "https://github.com/FridaS/nei-mock#readme"
+}
