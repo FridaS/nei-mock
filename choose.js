@@ -1,7 +1,6 @@
 const inquirer = require('inquirer')
 const path = require('path')
 const { key, proxyTarget } = require(path.resolve(process.cwd(), 'neiMockConfig'))
-const { proxyTable } = require('./proxy-mock/proxy.config.js')
 
 // 命令行配置
 const firstQuestion = {
@@ -82,6 +81,7 @@ let choose = (app) => {
           // 选取代理到的目标环境
           inquirer.prompt(proxyTargetSelectQuestion).then(answers => {
             process.env.NEI_PROXYTARGET = proxyTarget[answers.NEIProxyTarget]
+            const { proxyTable } = require('./proxy-mock/proxy.config.js')
             app.use(proxyTable)
           })
         }

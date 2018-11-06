@@ -17,7 +17,7 @@ module.exports = {
    */
   key: '07841b89b63b942b1bb0abcfd090685d',
   // 代理到proxyTarget的接口
-  proxyURL: ['/api'],
+  proxyURL: ['/api', '/community'],
   proxyTarget: {
     'default': 'http://content.kaola.com',
     'user_test6': 'http://10.206.58.10:5052',
