@@ -15,5 +15,21 @@
   "bugs": {
     "url": "https://github.com/FridaS/nei-mock/issues"
   },
-  "homepage": "https://github.com/FridaS/nei-mock#readme"
+  "homepage": "https://github.com/FridaS/nei-mock#readme",
+  "dependencies": {
+    "async": "^2.6.2",
+    "child_process": "^1.0.2",
+    "fs": "0.0.1-security",
+    "globule": "^1.2.1",
+    "http-proxy-middleware": "^0.19.1",
+    "inquirer": "^6.2.2",
+    "mockjs": "^1.0.1-beta3",
+    "os": "^0.1.1",
+    "path": "^0.12.7",
+    "path-to-regexp": "^3.0.0",
+    "querystring": "^0.2.0",
+    "rimraf": "^2.6.3",
+    "strip-json-comments": "^2.0.1",
+    "yargs": "^13.2.1"
+  }
 }
