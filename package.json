@@ -30,6 +30,7 @@
     "querystring": "^0.2.0",
     "rimraf": "^2.6.3",
     "strip-json-comments": "^2.0.1",
-    "yargs": "^13.2.1"
+    "yargs": "^13.2.1",
+    "nei": "^3.7.6"
   }
 }
