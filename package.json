@@ -1,6 +1,6 @@
 {
   "name": "nei-mock",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "NEI based data mock scheme",
   "main": "index.js",
   "scripts": {
