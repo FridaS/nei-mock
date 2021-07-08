@@ -18,6 +18,7 @@ module.exports = {
      *  }
      */
     key: '07841b89b63b942b1bb0abcfd090685d',
+    domain: 'http://localhost:8082', // 数据源服务器，默认https://nei.netease.com
     // 代理到proxyTarget的接口
     proxyURL: ['/api', '/community'],
     proxyTarget: {

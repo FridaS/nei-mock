@@ -5,6 +5,7 @@ const async = require('async')
 const exec = require('child_process').exec
 const globule = require('globule')
 const key = process.env.NEI_KEY
+const serverDomainCMD = process.env.NEI_DOMAIN ? `-s ${process.env.NEI_DOMAIN}` : '';
 
 const neiBaseDir = path.resolve(os.homedir(), 'localMock', key)
 const neiServerConfigFolder = path.resolve(neiBaseDir, './nei**')
@@ -25,8 +26,8 @@ let reloadServerConfig = (cb) => {
 
   let configPathArr = globule.find(neiServerConfigFolder)
 
-  const neiBuild = `nei build -k ${key} -o ${neiBaseDir}`
-  const neiUpdate = `cd ~/localMock/${key} && nei update`
+  const neiBuild = `nei build -k ${key} -o ${neiBaseDir} ${serverDomainCMD}`
+  const neiUpdate = `cd ~/localMock/${key} && nei update ${serverDomainCMD}`
   const cmdStr = (configPathArr && configPathArr.length) ? neiUpdate : neiBuild
 
   exec(cmdStr, (error, stdout, stderr) => {

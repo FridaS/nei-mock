@@ -7,6 +7,7 @@ const yargs = require('yargs')
 const rimraf = require('rimraf')
 const async = require('async')
 let key = process.env.NEI_KEY
+const serverDomainCMD = process.env.NEI_DOMAIN ? `-s ${process.env.NEI_DOMAIN}` : '';
 
 // 直接执行npm run local-mock，需要取nei项目key，默认取第一个nei项目的key
 let defaultKey = null
@@ -207,11 +208,11 @@ let softUpdate = (cb) => {
   let configPathArr = globule.find(neiServerConfig)
 
   // 从nei拉取mock数据
-  const neiBuild = `nei build -k ${key} -o ${neiBaseDir}`
+  const neiBuild = `nei build -k ${key} -o ${neiBaseDir} ${serverDomainCMD}`
   // nei update: 更新接口文件，但本地已存在的不覆盖；
   // nei update -w: 覆盖已存在的文件，但本地已存在、nei已删除的文件不处理（需要用户手动删除）。
   // const neiUpdate = `cd ~/localMock/${key} && nei update -w`
-  const neiUpdate = `cd ~/localMock/${key} && nei update`
+  const neiUpdate = `cd ~/localMock/${key} && nei update ${serverDomainCMD}`
   const cmdStr = (configPathArr && configPathArr.length) ? neiUpdate : neiBuild
   console.log('nei exec start:', cmdStr)
 

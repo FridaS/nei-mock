@@ -1,6 +1,6 @@
 {
   "name": "nei-mock",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "NEI based data mock scheme",
   "main": "index.js",
   "scripts": {
@@ -24,13 +24,13 @@
     "http-proxy-middleware": "^0.19.1",
     "inquirer": "^6.2.2",
     "mockjs": "^1.0.1-beta3",
+    "nei": "^3.7.6",
     "os": "^0.1.1",
     "path": "^0.12.7",
     "path-to-regexp": "^3.0.0",
     "querystring": "^0.2.0",
     "rimraf": "^2.6.3",
     "strip-json-comments": "^2.0.1",
-    "yargs": "^13.2.1",
-    "nei": "^3.7.6"
+    "yargs": "^13.2.1"
   }
 }

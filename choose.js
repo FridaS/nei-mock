@@ -1,6 +1,8 @@
 const inquirer = require('inquirer')
 const path = require('path')
-const { key, proxyTarget } = require(path.resolve(process.cwd(), 'neiMockConfig'))
+const { key, proxyTarget, domain } = require(path.resolve(process.cwd(), 'neiMockConfig'))
+
+process.env.NEI_DOMAIN = domain;
 
 // 命令行配置
 const firstQuestion = {
