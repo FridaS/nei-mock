@@ -88,9 +88,13 @@ var getFromNEISite = (requestPath, method, id, callback) => {
     id,
     method: method
   }
-  let url = 'https://nei.netease.com/api/mockdata?' + querystring.stringify(params)
 
-  require('https').get(url, function (res) {
+  const grabDataFrom = process.env.NEI_DOMAIN || 'https://nei.netease.com';
+  let url = grabDataFrom + '/api/mockdata?' + querystring.stringify(params)
+
+  const httpProtocal = grabDataFrom.split('://')[0] === 'https' ? require('https') : require('http');
+
+  httpProtocal.get(url, function (res) {
     let ret = []
     res.on('data', function (chunk) {
       ret.push(chunk.toString())
