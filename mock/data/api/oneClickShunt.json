@@ -1,0 +1,45 @@
+{
+    "code": 67441,
+    "msg": "aULczhhDLy",
+    "results": [
+        {
+            "Name": "lwsdhe8021",
+            "CarInfo": {
+                "CarNo": "A5JdeKRjSj",
+                "CarName": "9YNpGe8uY8",
+                "CarId": "66115",
+                "Longitude": 94568,
+                "Latitude": 64760
+            },
+            "HosNo": "Zh2mWwnPjm",
+            "OrganizationName": "EeQ85mqud3",
+            "LocationName": "tm16Bw4mjg"
+        },
+        {
+            "Name": "eV2HgtZhGj",
+            "CarInfo": {
+                "CarNo": "RWNFaAcVMC",
+                "CarName": "7fVzAhtuPE",
+                "CarId": "66242",
+                "Longitude": 35920,
+                "Latitude": 24020
+            },
+            "HosNo": "YRxXB2qVhZ",
+            "OrganizationName": "O5wEsJGhGf",
+            "LocationName": "JJBNosvqc9"
+        },
+        {
+            "Name": "7MXo0iwiRM",
+            "CarInfo": {
+                "CarNo": "lMjJrl1h8d",
+                "CarName": "zOspJzCa36",
+                "CarId": "66978",
+                "Longitude": 78494,
+                "Latitude": 68610
+            },
+            "HosNo": "K4pB2kDYmc",
+            "OrganizationName": "JSIfoe4S2p",
+            "LocationName": "SCewAptt3s"
+        }
+    ]
+}

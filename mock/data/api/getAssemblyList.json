@@ -1,0 +1,33 @@
+{
+    "code": 87104,
+    "msg": "ESPJjHxBEw",
+    "results": [
+        {
+            "LocationNo": "3sXUD8MXX5",
+            "LocationName": "S0jGKV89jM",
+            "Description": "JLrD1dQrLd",
+            "Longitude": 21427,
+            "Latitude": 27036,
+            "Manager": "YG4xnuZdOX",
+            "ManageArea": "zyDmyVgTmH"
+        },
+        {
+            "LocationNo": "jw8RHxFijb",
+            "LocationName": "3686QcA2r3",
+            "Description": "S4XkQ85Dvv",
+            "Longitude": 22919,
+            "Latitude": 94768,
+            "Manager": "5XELy86EVt",
+            "ManageArea": "0ILZIc4zIz"
+        },
+        {
+            "LocationNo": "uPDCQqlylv",
+            "LocationName": "gGx8KSrLK1",
+            "Description": "NIKX91cE5z",
+            "Longitude": 60098,
+            "Latitude": 27113,
+            "Manager": "Zv1t7kb4MA",
+            "ManageArea": "vitYcddpkg"
+        }
+    ]
+}

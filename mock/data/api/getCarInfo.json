@@ -1,0 +1,39 @@
+{
+    "code": 82757,
+    "msg": "83DjCsjuBh",
+    "results": [
+        {
+            "CarName": "FwmDUuq1Ao",
+            "CarId": "64945",
+            "Longitude": 5704,
+            "Latitude": 39395,
+            "NowPatient": "saQiEQInF9",
+            "Name": "jEfsWt5osu",
+            "Hospital": "oCnI9b5gvk",
+            "PatientLocation": "0ba8KBG5yH",
+            "Description": "uJ4tsl5L9g"
+        },
+        {
+            "CarName": "zkuAEcJ5uV",
+            "CarId": "65213",
+            "Longitude": 95799,
+            "Latitude": 7385,
+            "NowPatient": "TOSEKDzUYN",
+            "Name": "MEIKdWXFhN",
+            "Hospital": "zicwYQUtVO",
+            "PatientLocation": "Jvcmy4vDES",
+            "Description": "uZeawWECqZ"
+        },
+        {
+            "CarName": "wo8FKax0Yx",
+            "CarId": "65303",
+            "Longitude": 40013,
+            "Latitude": 76266,
+            "NowPatient": "4xLtMwDpbm",
+            "Name": "lXKzfef59o",
+            "Hospital": "EFkedmxkcu",
+            "PatientLocation": "hoH622MNFL",
+            "Description": "KQTgbR9D52"
+        }
+    ]
+}

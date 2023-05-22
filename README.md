@@ -6,7 +6,9 @@ NEI based data mock scheme
 
 ```javascript
 // neimockConfig.js
-module.exports = {
+const { createNeiMockConfig } = require('./nei-mock');
+
+module.exports = createNeiMockConfig({
     /**
      * nei项目的唯一标识
      * 写法1，唯一的nei项目
@@ -28,22 +30,36 @@ module.exports = {
         'pre5': 'http://10.201.171.244:5052'
     },
     // 本地mock数据存放目录
-    localMockData: 'mock'
-}
+    localMockData: 'mock',
+    forceUpdate: 're-select' | 'use-current-selection' | false,
+    mixedProxy: {
+        '/api1': '/api2'
+    }
+})
 ```
 
 ##### 2. 使用
 
 ###### 用法1：
 ```javascript
-const mockMiddleware = require('nei-mock')
+// webpack
+const { neiMock } = require('nei-mock')
 
 devServer: {
     before: function(app) {
         console.log('before start')
-        mockMiddleware(app)
+        neiMock(app)
     }
 }
+
+// vite
+import { vitePluginNeiMock } from './nei-mock-vite';
+
+plugins: [
+    ...,
+    vitePluginNeiMock(),
+    ...
+]
 ```
 
 ###### 用法2：
