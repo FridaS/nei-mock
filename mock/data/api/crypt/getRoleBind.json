@@ -1,0 +1,26 @@
+{
+    "msg": "S7vSGqkZhg",
+    "code": "3XMKMXlhDo",
+    "data": {
+        "roleBindList": [
+            {
+                "doctorName": "KGGsOSJNBE",
+                "doctorID": "62664",
+                "roleName": "otp2qIqk5Q",
+                "roleDescription": "rXVKfIWXb9"
+            },
+            {
+                "doctorName": "fNYm2PfrKT",
+                "doctorID": "62846",
+                "roleName": "gGTwMXrgam",
+                "roleDescription": "RJnKwUdw8r"
+            },
+            {
+                "doctorName": "zoWZqMkEGj",
+                "doctorID": "63007",
+                "roleName": "ES136LX1Bh",
+                "roleDescription": "ESzGEXpPxu"
+            }
+        ]
+    }
+}

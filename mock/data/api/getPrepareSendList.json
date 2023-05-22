@@ -1,0 +1,27 @@
+{
+    "code": 99133,
+    "msg": "GrnkxuwazS",
+    "results": [
+        {
+            "CreateTime": "1677458559599",
+            "PatientId": 85492,
+            "Name": "q1neW0gty4",
+            "Diagnose": "TBMZU1ApS0",
+            "EmergencyGroupName": "We4ob0OZpp"
+        },
+        {
+            "CreateTime": "1677460263457",
+            "PatientId": 86410,
+            "Name": "zirKSQlxq5",
+            "Diagnose": "scLxJHmDUI",
+            "EmergencyGroupName": "mTf7Q8YHRe"
+        },
+        {
+            "CreateTime": "1677458586009",
+            "PatientId": 86797,
+            "Name": "EgPuKJsbLd",
+            "Diagnose": "D7miWkAADX",
+            "EmergencyGroupName": "M5oCmDpdMi"
+        }
+    ]
+}

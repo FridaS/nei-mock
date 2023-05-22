@@ -1,0 +1,64 @@
+{
+    "code": 53643,
+    "msg": "PP9MRaki2E",
+    "results": {
+        "1": [
+            {
+                "locName": "riiZkgDBQn",
+                "longitude": 97820,
+                "latitude": 72859,
+                "manager": "NtazZRo485",
+                "deviceId": "56022",
+                "deviceName": "eZDYyX7JBb",
+                "groupNo": "oFRRmxwN4w"
+            },
+            {
+                "locName": "uBQ0HdoUrG",
+                "longitude": 41801,
+                "latitude": 79079,
+                "manager": "wADK0hotlZ",
+                "deviceId": "56372",
+                "deviceName": "DPi8uUhoYe",
+                "groupNo": "cYNk48u8Ny"
+            },
+            {
+                "locName": "L7o2HdMpfq",
+                "longitude": 2059,
+                "latitude": 32361,
+                "manager": "CFuoMCuE9Q",
+                "deviceId": "56653",
+                "deviceName": "JaLOWSN0Dw",
+                "groupNo": "Wx4TtU4T7A"
+            }
+        ],
+        "2": [
+            {
+                "locName": "NHVorD00mX",
+                "longitude": 67033,
+                "latitude": 27569,
+                "manager": "4BdWHGNh1k",
+                "deviceId": "56683",
+                "deviceName": "AKp3Pc2qz5",
+                "groupNo": "eOpBVkhusZ"
+            },
+            {
+                "locName": "BRHfNjJyff",
+                "longitude": 90232,
+                "latitude": 46306,
+                "manager": "5aT7GielqI",
+                "deviceId": "56793",
+                "deviceName": "HEmZ0ldalZ",
+                "groupNo": "AtLnC6p9os"
+            },
+            {
+                "locName": "jC9Xp91Gmn",
+                "longitude": 3210,
+                "latitude": 55947,
+                "manager": "zgqCHAlVgT",
+                "deviceId": "57694",
+                "deviceName": "xk8glSUtSL",
+                "groupNo": "rInzyAYYYi"
+            }
+        ]
+    }
+}

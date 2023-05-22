@@ -1,0 +1,40 @@
+{
+    "code": 27367,
+    "msg": "Ttfd4IfpbC",
+    "data": {
+        "nodes": [
+            {
+                "id": "84046",
+                "label": "5sRSuDGZYU",
+                "type": "ZUwvDzWHT3"
+            },
+            {
+                "id": "84388",
+                "label": "AKNBk2Algl",
+                "type": "d24duIBRLG"
+            },
+            {
+                "id": "85269",
+                "label": "RrtT5V7IBs",
+                "type": "9hzo1Nf0V7"
+            }
+        ],
+        "edges": [
+            {
+                "source": "borlcmhyjA",
+                "target": "Noon5rfvtP",
+                "type": "BoAfNzuuNp"
+            },
+            {
+                "source": "qsrERYXhis",
+                "target": "jJMPkMaHiy",
+                "type": "K8TgCSOar6"
+            },
+            {
+                "source": "511JZsFaAm",
+                "target": "MH3t4Vk7BK",
+                "type": "dDXre8n6HU"
+            }
+        ]
+    }
+}

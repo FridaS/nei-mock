@@ -1,0 +1,128 @@
+{
+    "code": 36772,
+    "msg": "b4qSl3YOEI",
+    "results": {
+        "patientInfo": {
+            "Name": "BD0YaQ7owC",
+            "Gender": "X3ePrjgkLV",
+            "Born": "TvNSeppdaG",
+            "Age": "zWV6PscXAV",
+            "Nation": "01f9btPqQb",
+            "BloodType": "RGrPZeAtra",
+            "Unit": "ycS1ZAKYXW",
+            "Position": "LGQBZ2bOvH",
+            "Note": "ztD6pliKTJ",
+            "Phone": "RYzV84Ki7a",
+            "Email": "TYTX9JjX@OFGnO.gje"
+        },
+        "recordInfo": {
+            "P010": {
+                "OperationName": "YEC32TK1wx",
+                "InfoType": 3879,
+                "FileUrl": "http://gab.qizlkjozmdie.filt",
+                "Detail": "XE5YDnFikn",
+                "Detail1": "VPiXFmp9yz",
+                "OperationTime": "1677458414409",
+                "Operator": "1KCjeRNU6Z",
+                "Name": "HfagBGRf1Y",
+                "EmergencyGroup": "j19GH220Kj",
+                "d2": "letFjenIYG",
+                "d3": "PHhpYYOfwG",
+                "d4": "HBxng10CvB",
+                "d5": "L4LkEzMXPG",
+                "d6": "2Yo90jcQrC",
+                "d7": "I6wHC6ofDp"
+            },
+            "P020": {},
+            "P030": {},
+            "P031": {},
+            "P032": {},
+            "P033": {},
+            "P034": {},
+            "P035": {},
+            "P036": {},
+            "P037": {},
+            "P038": {},
+            "P039": {},
+            "P040": {},
+            "P041": {},
+            "P042": {},
+            "P043": {},
+            "P044": {},
+            "P050": {},
+            "P051": {},
+            "P052": {},
+            "P053": {},
+            "P060": {},
+            "P070": {},
+            "P080": {}
+        },
+        "treatmentInfo": {
+            "P111": [
+                {},
+                {},
+                {}
+            ],
+            "P112": [
+                {},
+                {},
+                {}
+            ],
+            "P113": [
+                {},
+                {},
+                {}
+            ],
+            "P114": [
+                {},
+                {},
+                {}
+            ],
+            "P115": [
+                {},
+                {},
+                {}
+            ],
+            "P116": [
+                {},
+                {},
+                {}
+            ],
+            "P117": [
+                {},
+                {},
+                {}
+            ],
+            "P118": [
+                {},
+                {},
+                {}
+            ],
+            "P119": [
+                {},
+                {},
+                {}
+            ],
+            "P1101": [
+                {},
+                {},
+                {}
+            ],
+            "P1102": [
+                {},
+                {},
+                {}
+            ],
+            "P1103": [
+                {},
+                {},
+                {}
+            ],
+            "P1104": [
+                {},
+                {},
+                {}
+            ]
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "code": 71079,
+    "msg": "HyBNVZLUbS",
+    "results": [
+        {
+            "OrganizationCode": "36amZmFflh",
+            "OrganizationName": "75SX9gXjLn",
+            "LocationDescription": "xPR3bVsvB7",
+            "Longitude": 18916,
+            "Latitude": 74700
+        },
+        {
+            "OrganizationCode": "UeiWtyITFD",
+            "OrganizationName": "twcL16vf8M",
+            "LocationDescription": "OqVbhRxN2b",
+            "Longitude": 25586,
+            "Latitude": 57471
+        },
+        {
+            "OrganizationCode": "07w5q1chqw",
+            "OrganizationName": "qJW2YPfiNw",
+            "LocationDescription": "bHbtWZ99Bx",
+            "Longitude": 59181,
+            "Latitude": 51261
+        }
+    ]
+}
