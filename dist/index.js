@@ -42,7 +42,7 @@ var require_nei_online = __commonJS({
     var globule2 = require("globule");
     var key2 = process.env.NEI_KEY;
     var serverDomainCMD2 = process.env.NEI_DOMAIN ? `-s ${process.env.NEI_DOMAIN}` : "";
-    var neiBaseDir2 = path.resolve(os2.homedir(), "localMock", key2 || '');
+    var neiBaseDir2 = path.resolve(os2.homedir(), "localMock", key2);
     var neiServerConfigFolder = path.resolve(neiBaseDir2, "./nei**");
     var lock = false;
     var reloadServerConfig = (cb) => {
@@ -689,7 +689,6 @@ var import_chokidar = require("chokidar");
 var import_path5 = require("path");
 var import_chalk2 = __toESM(require("chalk"));
 var import_inquirer2 = require("inquirer");
-const { log } = require('console');
 var oldUserConfig;
 var oldTheProxyTarget;
 var oldKey;
