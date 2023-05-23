@@ -4,8 +4,10 @@ const os = require('os')
 const async = require('async')
 const exec = require('child_process').exec
 const globule = require('globule')
-const key = process.env.NEI_KEY
-const serverDomainCMD = process.env.NEI_DOMAIN ? `-s ${process.env.NEI_DOMAIN}` : '';
+import { getCurrentConfig } from '../neiConfig';
+const neiConfig = getCurrentConfig()
+const key = neiConfig.theKey
+const serverDomainCMD = neiConfig.userConfig.domain ? `-s ${neiConfig.userConfig.domain}` : '';
 
 const neiBaseDir = path.resolve(os.homedir(), 'localMock', key)
 const neiServerConfigFolder = path.resolve(neiBaseDir, './nei**')
@@ -89,7 +91,7 @@ var getFromNEISite = (requestPath, method, id, callback) => {
     method: method
   }
 
-  const grabDataFrom = process.env.NEI_DOMAIN || 'https://nei.netease.com';
+  const grabDataFrom = neiConfig.userConfig.domain || 'https://nei.netease.com';
   let url = grabDataFrom + '/api/mockdata?' + querystring.stringify(params)
 
   const httpProtocal = grabDataFrom.split('://')[0] === 'https' ? require('https') : require('http');

@@ -8,7 +8,6 @@ import { getProxyTable } from './proxy-mock/proxy.config'
 import { getNewNeiConfig } from './neiConfig';
 import { getTheKey, setProxyMiddleware } from './utils';
 import { startWatchMockFolder } from './watcher';
-import neiOnlineMockMiddleware from "./nei-online/nei-online";
 
 // 命令行配置
 const firstQuestion: DistinctQuestion<{ neiOnline: 'false' | 'true'  }> = {
@@ -33,7 +32,7 @@ export async function choose(app: Application | Connect.Server) {
     neiConfig.theKey = typeof userConfig.key === 'string' 
       ? userConfig.key
       : await getTheKey(userConfig);
-    app?.use(neiOnlineMockMiddleware)
+    app?.use(require('./nei-online/nei-online'))
   } else {
     const { useProxy } = await inquirer.prompt(secondQuestion)
     neiConfig.useProxy = useProxy;
